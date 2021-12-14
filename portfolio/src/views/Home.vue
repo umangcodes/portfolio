@@ -2,17 +2,27 @@
   <div class="h-auto">
     <Intro />
     <!-- cover image/ intro -->
-    <div class="grid grid-cols-2 h-50 w-full">
+    <div class="grid grid-cols-2 mx-5 my-10 h-screen">
       <!-- <img
         class="object-cover h-50 w-full"
         src="@/assets/cover-image.jpg"
         alt=""
       /> -->
-      <div class="cols-start-1 text-3xl font-thin h-50">
-        Front end Web developer Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Aliquam sequi perferendis quidem deleniti, doloremque
-        ex temporibus natus nobis illum ipsa iste officiis, qui vero ratione
-        accusamus. Neque rerum labore dicta?
+      <div class="flex cols-start-1 px-16 items-center">
+        <div class="flex flex-col">
+          <p class="font-semibold text-2xl text-center py-10">My philosophy</p>
+          <div class="text-xl font-thin">
+            <ul class="flex flex-col items-center">
+              <li>Deliver modern and visually appealing web applications</li>
+              <li>Give responsive design and mobile first high importance</li>
+              <li>Follow the principles of clean code and SOLID</li>
+              <li>Consider future compatibility</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="flex cols-start-2 items-center">
+        <img src="../assets/cover-image.jpg" class="rounded-lg" alt="" />
       </div>
     </div>
     <!-- interests -->
