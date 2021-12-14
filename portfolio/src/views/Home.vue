@@ -1,5 +1,6 @@
 <template>
   <div class="h-auto">
+    <Intro />
     <!-- cover image/ intro -->
     <div class="grid grid-cols-2 h-50 w-full">
       <!-- <img
@@ -23,9 +24,11 @@
 
 <script>
 // @ is an alias to /src
-
+import Intro from "../components/home/Intro.vue";
 export default {
   name: "Home",
-  components: {},
+  components: {
+    Intro,
+  },
 };
 </script>
