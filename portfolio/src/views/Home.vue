@@ -1,5 +1,24 @@
 <template>
-  <div class="h-screen"></div>
+  <div class="h-auto">
+    <!-- cover image/ intro -->
+    <div class="grid grid-cols-2 h-50 w-full">
+      <!-- <img
+        class="object-cover h-50 w-full"
+        src="@/assets/cover-image.jpg"
+        alt=""
+      /> -->
+      <div class="cols-start-1 text-3xl font-thin h-50">
+        Front end Web developer Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Aliquam sequi perferendis quidem deleniti, doloremque
+        ex temporibus natus nobis illum ipsa iste officiis, qui vero ratione
+        accusamus. Neque rerum labore dicta?
+      </div>
+    </div>
+    <!-- interests -->
+    <!-- skills -->
+    <!-- projects -->
+    <!-- blog -->
+  </div>
 </template>
 
 <script>
