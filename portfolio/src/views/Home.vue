@@ -1,7 +1,5 @@
 <template>
-  <div class="">
-    
-  </div>
+  <div class="h-screen"></div>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <div id="Footer" class="absolute bottom-0 border-t h-auto w-screen">
+  <div id="Footer" class="relative bottom-0 border-t h-auto w-screen">
     <div
       class="flex flex-col items-center justify-center mt-5 mx-5 h-40 bg-white"
     >
